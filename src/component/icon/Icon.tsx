@@ -2,10 +2,11 @@ import React from "react";
 
 export const AmericanSVG = ({ ...props }) => (
   <svg
-    width="300"
+    width="30"
     height="20"
     viewBox="0 0 300 200"
     xmlns="http://www.w3.org/2000/svg"
+    fill="#D8DAE5"
     {...props}
   >
     <rect width="300" height="200" fill="#B22234" />
@@ -39,13 +40,14 @@ export const AmericanSVG = ({ ...props }) => (
 export const GermanFlag = ({ ...props }) => (
   <svg
     {...props}
-    width="300"
-    height="200"
+    width="30"
+    height="20"
     viewBox="0 0 300 200"
     xmlns="http://www.w3.org/2000/svg"
+    fill=""
   >
-    <rect width="15" height="10" fill="#000000" />
-    <rect width="15" height="10" y="10" fill="#FF0000" />
-    <rect width="15" height="10" y="20" fill="#FFD700" />
+    <rect width="300" height="110" fill="#000000" />
+    <rect width="300" height="110" y="70" fill="#FF0000" />
+    <rect width="300" height="110" y="140" fill="#FFD700" />
   </svg>
 );
